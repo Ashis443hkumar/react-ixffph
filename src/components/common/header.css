@@ -1,0 +1,50 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5%;
+  background-color: skyblue;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo img{
+  width: 120px;
+  cursor: pointer;
+}
+.navbar-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-list ul {
+  display: flex;
+}
+.navbar-list ul li{
+  list-style: none;
+}
+.navbar-list ul li a{
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+
+}
+.navbar-list ul li a.active{
+  color: red;
+  cursor: pointer;
+}
+.buynow{
+  margin-left: 30px;
+  border: 1px solid crimson;
+  padding: 11px 24px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.buynow a{
+  color: #fff;
+}

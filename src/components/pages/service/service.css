@@ -1,0 +1,66 @@
+#service{
+  background-color: #010001;
+  color: #fff;
+  padding: 30px;
+}
+
+.heading{
+  text-align: center;
+  margin: 30px 0px;
+
+}
+.heading h5{
+  font-size: 23px;
+  background: linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.heading h1{
+  margin: 10px 0px;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.service{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:  20px 5%;
+  flex-wrap: wrap;
+   
+}
+.serviceBox{
+  flex-basis: 32.11%;
+  padding: 40px;  
+  text-align: left;
+  background-color: #0c0c0c;
+  margin-bottom: 20px;
+  color: #fff;
+  transition: all 0.5s ease;
+
+}
+.serviceBox:hover{
+  transform: translateY(-10px);
+}
+.serviceBox i{
+   font-size: 32px;
+   padding-bottom: 20px;
+   color: #fd4766;
+
+}
+.serviceBox h2{
+  font-size: 26px;
+  margin-bottom: 10px;
+  background: linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+@media (max-width:768px){
+.serviceBox{
+   flex-basis: 48.11%;
+}
+
+
+}

@@ -1,0 +1,29 @@
+.head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 5%;
+  width: 100%;
+  height: 40px;
+  background-color: #28567d;
+}
+.left_head i{
+    margin-right: 10px;
+    color: #ec2254;
+}
+
+.left_head label{
+  margin-right: 30px;
+  color: #fff;
+}
+.right_head a{
+  margin-right: 15px;
+  background-color: #F18323;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  padding: 8px;
+  color: #fff;
+}
